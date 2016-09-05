@@ -10,6 +10,7 @@
         }
       , "find" : {
             "" : { "resource": "find/:id", "method": "get" }
+          , "Imdb" : { "resource": "find/:id?external_source=imdb_id", "method": "get" }
       	}
       , "search" : {
             "Movie" : { "resource": "search/movie", "method": "get" }
